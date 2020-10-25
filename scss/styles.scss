@@ -56,10 +56,6 @@ body {
 }
 
 @media (max-width: 767.98px) {
-    .navbar-brand {
-        width: 70%;
-    }
-
     header video {
         width: 200%;
     }
@@ -68,6 +64,9 @@ body {
 @media (max-width: 575.98px) {
     header video {
         width: 240%;
+    }
+    .navbar-brand {
+        width: 70%;
     }
 }
 
