@@ -17,7 +17,7 @@ header {
     position: relative;
     background-color: black;
     height: 51vw;
-    min-height: 19rem;
+    min-height: 25rem;
     width: 100%;
     overflow: hidden;
 }
@@ -51,11 +51,31 @@ body {
     background-color: $accent-shade;
 }
 
+.site-logo {
+    width: 40%;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        width: 70%;
+    }
+
+    header video {
+        width: 200%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    header video {
+        width: 240%;
+    }
+}
+
 /* TYPOGRAPHY
 ---------------------------------------------*/
 
 .front-hero {
-    font-family: 'Abril Fatface', cursive;
+    font-family: "Abril Fatface", cursive;
     color: $accent-shade;
     font-size: 4rem;
 }
@@ -72,7 +92,7 @@ body {
 }
 
 h2 {
-    font-family: 'Abril Fatface', cursive;
+    font-family: "Abril Fatface", cursive;
     font-size: 3rem;
     color: $primary-shade;
 }
@@ -87,8 +107,8 @@ h2 {
         content: "";
         display: block;
         padding-bottom: 100%;
-      }
-  }
+    }
+}
 
 .list-number {
     position: absolute;
@@ -96,15 +116,15 @@ h2 {
     top: 50%;
     width: 100%;
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
+    font-family: "Abril Fatface", cursive;
     font-size: 2em;
     font-weight: bold;
     color: $accent-shade;
-  }
+}
 
 .list-text {
     font-size: 1.5rem;
-    font-family: 'Abril Fatface', cursive;
+    font-family: "Abril Fatface", cursive;
     color: $primary-shade;
 }
 
@@ -130,7 +150,7 @@ h2 {
     color: $accent-shade-lighter;
 }
 
-.site-footer a{
+.site-footer a {
     color: $accent-shade;
 }
 
