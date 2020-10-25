@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Brighton';
+    src: url('BrightonBold.woff2') format('woff2'),
+        url('BrightonBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
