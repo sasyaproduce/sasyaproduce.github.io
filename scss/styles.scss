@@ -127,6 +127,10 @@ h2 {
     color: $primary-shade;
 }
 
+.h3 {
+    font-size: 1.3rem;
+}
+
 /* UI ELEMENTS
 ---------------------------------------------*/
 
@@ -157,4 +161,40 @@ h2 {
     opacity: 0.2;
     color: $accent-shade;
     padding-top: 0.3rem;
+}
+
+/* PRODUCTS & SERVICES
+---------------------------------------------*/
+
+.card-img-top {
+    height: 15vw;
+    object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+    .card-img-top {
+        height: 22vw;
+        object-fit: cover;
+    }
+}
+
+.card {
+    background-color: $primary-shade;
+}
+
+.h3-card-dark {
+    color: $accent-shade;
+}
+
+.ps-text {
+    font-size: 1.2rem;
+}
+
+/* OUR TEAM
+---------------------------------------------*/
+
+.team-name {
+    font-family: "Abril Fatface", cursive;
+    color: $primary-shade;
+    font-size: 1.5rem;
 }

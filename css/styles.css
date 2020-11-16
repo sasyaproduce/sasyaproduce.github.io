@@ -124,6 +124,10 @@ h2 {
   color: #35474F;
 }
 
+.h3 {
+  font-size: 1.3rem;
+}
+
 /* UI ELEMENTS
 ---------------------------------------------*/
 .rect {
@@ -152,4 +156,38 @@ h2 {
   opacity: 0.2;
   color: #FCF5EA;
   padding-top: 0.3rem;
+}
+
+/* PRODUCTS & SERVICES
+---------------------------------------------*/
+.card-img-top {
+  height: 15vw;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .card-img-top {
+    height: 22vw;
+    object-fit: cover;
+  }
+}
+
+.card {
+  background-color: #35474F;
+}
+
+.h3-card-dark {
+  color: #FCF5EA;
+}
+
+.ps-text {
+  font-size: 1.2rem;
+}
+
+/* OUR TEAM
+---------------------------------------------*/
+.team-name {
+  font-family: "Abril Fatface", cursive;
+  color: #35474F;
+  font-size: 1.5rem;
 }
