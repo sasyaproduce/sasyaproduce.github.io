@@ -191,3 +191,11 @@ h2 {
   color: #35474F;
   font-size: 1.5rem;
 }
+
+/* BUTTONS
+---------------------------------------------*/
+
+.btn-sasya {
+  background-color: #35474F !important;
+  border: 1px solid #35474F !important;
+}
