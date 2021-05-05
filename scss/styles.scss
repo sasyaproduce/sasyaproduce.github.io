@@ -70,6 +70,10 @@ body {
     }
 }
 
+.navbar-brand {
+    max-height: 44px;
+}
+
 /* TYPOGRAPHY
 ---------------------------------------------*/
 
@@ -198,3 +202,11 @@ h2 {
     color: $primary-shade;
     font-size: 1.5rem;
 }
+
+/* BUTTONS
+---------------------------------------------*/
+
+.btn-sasya {
+    background-color: #35474F !important;
+    border: 1px solid #35474F !important;
+  }
