@@ -67,10 +67,6 @@ body {
   }
 }
 
-.navbar-brand {
-  max-height: 44px;
-}
-
 /* TYPOGRAPHY
 ---------------------------------------------*/
 .front-hero {
@@ -87,7 +83,12 @@ body {
 
 .front-body {
   color: #FCF5EA;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+
+.front-body a {
+  color: #FCF5EA;
+  text-decoration: underline;
 }
 
 h2 {

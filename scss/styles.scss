@@ -70,10 +70,6 @@ body {
     }
 }
 
-.navbar-brand {
-    max-height: 44px;
-}
-
 /* TYPOGRAPHY
 ---------------------------------------------*/
 
@@ -91,7 +87,12 @@ body {
 
 .front-body {
     color: $accent-shade;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+
+    a {
+        color: $accent-shade;
+        text-decoration: underline;
+    }
 }
 
 h2 {
