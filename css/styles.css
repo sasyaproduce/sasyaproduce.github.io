@@ -45,7 +45,8 @@ header .overlay {
 }
 
 body {
-  background-color: #FCF5EA;
+ /* background-color: #FCF5EA;*/
+background-color: #fff;
 }
 
 .site-logo {
